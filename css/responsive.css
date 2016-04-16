@@ -1,0 +1,122 @@
+
+@media only screen and (max-width: 1190px) {
+    
+    .text-hero {
+        margin-left: 45px;
+    }
+    
+    .text-hero-button .btn-default {
+        margin-left: 45px;
+    }
+    
+    .text-hero h1 {
+        font-size: 3.5em;
+    }
+    
+    .text-hero h3 {
+        text-transform: uppercase;
+        font-size: 2.4em;
+        color: #fff;
+        padding-bottom: 35px;
+    }
+    
+    .brand-about p {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    figure.fore-efter-img {
+        min-height: 160px;
+    }
+    
+    
+    .boka-tid-about p {
+        margin-left: 8%;
+    }
+    
+    .footer-brand-contact {
+        font-size: 12px;
+    }
+    
+    .footer-brand-about p {
+        font-size: 12px;
+    }
+    
+    .footer-brand-links ul li {
+        font-size: 12px;
+    }
+    
+    .footer-button .btn-footer {
+        font-size: 16px;
+    }
+    
+    #footer {
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .brand h3 {
+        display: none;
+    }
+    
+    .brand-about {
+        top: 6px;
+    }
+    
+    .brand-about p {
+        font-size: 13px;
+    }
+    
+    figure.fore-efter-img {
+        min-height: 120%;
+    }
+    
+    
+    .boka-tid h3 {
+        font-size: 14px;
+    }
+    
+    .boka-tid-about p {
+        font-size: 17px;
+    }
+    
+    .footer-brand-links ul li {
+        font-size: 13px;
+    }
+    
+    .footer-button .btn-footer {
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+    #header {
+        background-position: right;
+    }
+    
+    .text-hero {
+        padding-top: 30%;
+    }
+    
+    .text-hero h1 {
+        font-size: 2em;
+    }
+    
+    .text-hero h3 {
+        font-size: 1.1em;
+    }
+    
+    .boka-tid h3 {
+        display: none;
+    }
+    
+    .col-xs-4 {
+        text-align: center;
+        width: 100%;
+    }
+    
+}
