@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belladermo - Clinic Surgery</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    
+</head>
+
+<body>
+
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><span>Belladermo</span></div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse pf-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="#">Behandlingar</a>
+                        <ul>
+                            <li><a href="botox.html">Botox</a></li>
+                            <li><a href="restylane.html">Restylane</a></li>
+                            <li><a href="radiesse.html">Radiesse</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Före/Efter</a></li>
+                    <li><a href="#">Prislista</a></li>
+                    <li><a href="bokatid.html">Boka TID</a></li>
+                    <li><a href="omoss.html">Om oss</a></li>
+                    <li><a href="#">Kontakta oss</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    
+    
+    <!-- NEW SECTION -->
+    
+    <section id="contact-form">
+        <div class="container">
+          <div class="row">
+            <div class="section-text-title text-center bokatid-title">
+                <h2>Kontakta oss</h2>
+                <span><img src="img/icons/interface.svg" alt="Icon SVG File"></span>
+           </div>
+        </div>
+           <div class="row">
+               <div class="col-md-6 ">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Namn:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Namn">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email adress:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea type="tel" class="form-control" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vad">Vad blir 4+2?</label>
+                        <input type="number" class="form-control" id="vad" placeholder="Vad blir 4+2?">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Send">
+                    </div>
+                </form>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="map-responsive">
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:480px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">link directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(57.68682779249354,11.930362032910109),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(57.68682779249354,11.930362032910109)});infowindow = new google.maps.InfoWindow({content:'<strong>Belladermo</strong><br>Gröna gatan 59 414 54 Göteborg<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- -->
+    
+    
+<section id="bokatid">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-xs-4 boka-tid">
+                <h3>boka tid</h3>
+            </div>
+            
+            <div class="col-xs-4 boka-tid-about">
+                <p><span><i class="fa fa-phone"></i></span>031 757 33 77</p>
+            </div>
+            
+            <div class="col-xs-4 boka-tid-about">
+                <p><span><i class="fa fa-calendar-check-o"></i></span><a href="#">Boka tid</a></p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            
+           <div class="col-xs-4">
+                <div class="footer-brand-title">
+                    <h3>Belladermo</h3>
+                </div>
+            
+                <div class="footer-brand-about">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe amet autem quisquam sequi minus rem dolore quo eaque</p>
+                </div>
+                
+                <div class="footer-brand-contact">
+                    <p><span><i class="fa fa-map-marker"></i></span>Gröna gatan 59, 414 54 Göteborg</p>
+                    <p><span><i class="fa fa-phone"></i></span>031 757 33 77</p>
+                    <p><span><i class="fa fa-envelope"></i></span><a href="mailto:info@belladermo.se">info@belladermo.se</a></p>
+                </div>
+                
+           </div>
+           
+           <div class="col-xs-4">
+                <div class="footer-brand-title">
+                    <h3>länkar</h3>
+                </div>
+            
+                <div class="footer-brand-links">
+                    <ul>
+                        <li><a href="">Hem</a><span>|</span><a href="#">Behandlingar</a><span>|</span><a href="#">Botox</a></li>
+                        <li><a href="">Restylane</a><span>|</span><a href="#">Radiesse</a><span>|</span><a href="#">Före/Efter</a></li>
+                        <li><a href="">Prislista</a><span>|</span><a href="#">Boka TID</a><span>|</span><a href="#">Om oss</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-brand-social">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+           </div>
+           
+           <div class="col-xs-4">
+                <div class="footer-brand-title">
+                    <h3>Har du en fråga?</h3>
+                </div>
+            
+                <div class="footer-brand-about">
+                    <p>Pošaljite svoje pitanje ispod u vezi bilo kavke operacije kože ili medicinske procedure</p>
+                </div>
+                
+                <div class="footer-button">
+                    <a href="" class="btn btn-footer">Kontakta oss</a>
+                </div>
+                
+           </div>
+            
+        </div>
+    </div>
+</footer>
+
+<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="fa fa-long-arrow-up "></i></a>
+	</div>
+
+
+
+
+<!-- JavaScript Files -->
+   <script src="js/jquery-1.12.0.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="js/theme.js"></script>
+    
+</body>
+</html>
